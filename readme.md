@@ -1,23 +1,23 @@
 
 # 🤖 Session Supplementary Quick Reference
 
-# 1- Useful, but Optional Installations
+## 1- Useful, but Optional Installations
 
 - Visual Studio Code: https://code.visualstudio.com/  
 - Git: https://git-scm.com/  
 
-# 2- Install Your AI Agent of Choice
+## 2- Install Your AI Agent of Choice
 
-## Claude Code (Requires A Paid Subscription)
+### Claude Code (Requires A Paid Subscription)
 
 1. First you need to subscribe online https://claude.com/pricing
 2. Install Claude Code CLI
 
 ```
-# Windows (CMD admin):
+## Windows (CMD admin):
 >curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
 
-# Windows (Powershell. Does not seem to work reliably):
+## Windows (Powershell. Does not seem to work reliably):
 irm https://claude.ai/install.ps1 | iex
 ```
 3. Start using from windows terminal
@@ -28,25 +28,25 @@ irm https://claude.ai/install.ps1 | iex
 
 Note: If you prefer a graphical user interface over using the commnad line, you can download https://claude.com/product/claude-code
 
-## OpenCode (Can be Used for Free)
+### OpenCode (Can be Used for Free)
 
 1. install Node.js: https://nodejs.org/en  
 1. install OpenCode https://opencode.ai/ `npm install -g @opencode/cli`
 3. Start using from windows terminal `opencode`
 
-# 3- Common CLI-Based AI Agent Commands
+## 3- Common CLI-Based AI Agent Commands
 
 - `/clear` clear context window and start a new conversation. (it is good to do this often, but before doing you may sometimes want to ask claude to summarize progress and next steps in memory or some files)
 - `/context` show context window token utilization
 - `/status` claude settings, information, and remaining/cnosumed tokens % 
 - `/model` switch between models
 
-# 4- Markdown File Format Example
+## 4- Markdown File Format Example
 
 ```
-# Heading 1
-## Heading 2
-## Heading 3
+## Heading 1
+### Heading 2
+### Heading 3
 
 Regular text example
 
@@ -59,9 +59,9 @@ Regular text example
 - [ ] list item 3
 ```
 
-# Heading 1
-## Heading 2
-## Heading 3
+## Heading 1
+### Heading 2
+### Heading 3
 
 Regular text example
 
@@ -75,9 +75,9 @@ This project tracks progress.
 - [ ] list item 2
 - [ ] list item 3
 
-# 
+## 
 
-# 5 - Prompting and Prompt Engineering 
+## 5 - Prompting and Prompt Engineering 
 
 **Prompts** are the instructions and input you give to an AI generative model.
 

@@ -1,4 +1,6 @@
 
+# 🤖 Session Supplementary Quick Reference
+
 # 1- Useful, but Optional Installations
 
 - Visual Studio Code: https://code.visualstudio.com/  
